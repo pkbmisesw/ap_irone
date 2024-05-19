@@ -66,7 +66,7 @@ class LoginController extends GetxController {
   Future<void> checkIsUserExist(ThemeData theme) async {
     final isValid = formKey.currentState!.validate();
     if (isValid) {
-      moveToPage(Routes.MAIN_SUPER_ADMIN);
+      moveToPage(Routes.MAIN_USER);
 
       return;
     }

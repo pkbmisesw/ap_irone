@@ -309,104 +309,109 @@ class HomeUserView extends GetView<HomeUserController> {
 
     Widget builderItemMenu(ItemMenuDB itemMenu, int index) {
       return GestureDetector(
-        onTap: () async {
-          debugPrint("${itemMenu.id}");
-          if (index == 3) {
-            Get.toNamed(Routes.DETAIL_PKK);
-          } else if (itemMenu.image != null) {
-            isLoading.value = true;
-            showDialog(
-              context: context,
-              builder: (context) => Dialog.fullscreen(
-                backgroundColor: Colors.transparent,
-                child: Obx(() => isLoading.value ? Loader() : SizedBox()),
-              ),
-            );
-            String imageData() {
-              if (itemMenu.title == 'Capaian Program') {
-                return 'menu-capaian';
-              } else if (itemMenu.title == 'Prestasi') {
-                return 'menu-prestasi';
+          onTap: () async {
+            debugPrint("${itemMenu.id}");
+            if (index == 3) {
+              Get.toNamed(Routes.DETAIL_PKK);
+            } else if (itemMenu.image != null) {
+              isLoading.value = true;
+              showDialog(
+                context: context,
+                builder: (context) => Dialog.fullscreen(
+                  backgroundColor: Colors.transparent,
+                  child: Obx(() => isLoading.value ? Loader() : SizedBox()),
+                ),
+              );
+              String imageData() {
+                if (itemMenu.title == 'Capaian Program') {
+                  return 'menu-capaian';
+                } else if (itemMenu.title == 'Prestasi') {
+                  return 'menu-prestasi';
+                } else {
+                  return '';
+                }
+              }
+
+              final image = await DetailPkkServices().getImage(imageData());
+
+              if (image != '') {
+                Get.back();
+                isLoading.value = false;
+                // ignore: use_build_context_synchronously
+                detailPicture(
+                  context,
+                  CachedNetworkImageProvider(
+                      'https://tppkk-bitung.com/images/$image'),
+                );
               } else {
-                return '';
+                isLoading.value = true;
+              }
+            } else if (itemMenu.routeName != null) {
+              Get.toNamed(itemMenu.routeName!);
+            } else {
+              switch (itemMenu.id) {
+                case 3:
+                  showModalBottomSheet(
+                    context: context,
+                    showDragHandle: true,
+                    builder: (context) => builderBottomSheetLetter(),
+                  );
+                case 4:
+                  showDialog(
+                    context: context,
+                    builder: (context) => builderDialogEvent(),
+                  );
+                case 5:
+                  showDialog(
+                    context: context,
+                    builder: (context) => builderDialogEvent(),
+                  );
+                case 6:
+                  Get.to(() => TryMap());
+
+                case 7:
+                  showDialog(
+                    context: context,
+                    builder: (context) => builderDialogEvent(),
+                  );
+                case 8:
+                  showDialog(
+                    context: context,
+                    builder: (context) => builderDialogEvent(),
+                  );
               }
             }
-
-            final image = await DetailPkkServices().getImage(imageData());
-
-            if (image != '') {
-              Get.back();
-              isLoading.value = false;
-              // ignore: use_build_context_synchronously
-              detailPicture(
-                context,
-                CachedNetworkImageProvider(
-                    'https://tppkk-bitung.com/images/$image'),
-              );
-            } else {
-              isLoading.value = true;
-            }
-          } else if (itemMenu.routeName != null) {
-            Get.toNamed(itemMenu.routeName!);
-          } else {
-            switch (itemMenu.id) {
-              case 3:
-                showModalBottomSheet(
-                  context: context,
-                  showDragHandle: true,
-                  builder: (context) => builderBottomSheetLetter(),
-                );
-              case 4:
-                showDialog(
-                  context: context,
-                  builder: (context) => builderDialogEvent(),
-                );
-              case 5:
-                showDialog(
-                  context: context,
-                  builder: (context) => builderDialogEvent(),
-                );
-              case 6:
-                Get.to(() => TryMap());
-
-              case 7:
-                showDialog(
-                  context: context,
-                  builder: (context) => builderDialogEvent(),
-                );
-              case 8:
-                showDialog(
-                  context: context,
-                  builder: (context) => builderDialogEvent(),
-                );
-            }
-          }
-        },
-        child: Column(
-          children: [
-            Container(
-              padding: const EdgeInsets.all(12),
-              child: (itemMenu.assetsImg != null)
-                  ? Image.asset(
-                      itemMenu.assetsImg!,
-                      width: size.width / 10,
-                      fit: BoxFit.cover,
-                    )
-                  : Icon(
-                      itemMenu.icon,
-                      color: theme.colorScheme.primary,
-                      size: 38,
-                    ),
-            ),
-            Text(
-              itemMenu.title,
-              textAlign: TextAlign.center,
-              style: TextStyle(color: theme.colorScheme.error),
-              maxLines: 3,
-            ),
-          ],
-        ),
-      );
+          },
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                padding: EdgeInsets.all(12),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(20),
+                  color: bgYellow.withOpacity(0.3),
+                ),
+                child: itemMenu.assetsImg != null
+                    ? Image.asset(itemMenu.assetsImg!,
+                        width: 38,
+                        color: itemMenu.color ?? null,
+                        height:
+                            38) // Menambahkan Image.asset jika imagePath ada
+                    : Icon(itemMenu.icon, color: Color(0xffB00020), size: 38),
+              ),
+              SizedBox(
+                height: 5,
+              ),
+              Text(
+                itemMenu.title,
+                textAlign: TextAlign.center,
+                style: theme.textTheme.titleSmall?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    color: basicBlack,
+                    fontSize: 14),
+              )
+            ],
+          ));
     }
 
     Widget builderMenu() {

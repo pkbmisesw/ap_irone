@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 Color bgRed = Color.fromARGB(255, 244, 216, 5);
+Color bgYellow = Color(0xfffaea05);
 Color basicBlack = Color(0xff424242);
 Color bgGeneral = Color(0xffECECEC);
 Color trueBlack = Color(0xff000000);
