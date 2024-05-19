@@ -16,15 +16,15 @@ class SplashView extends GetView<SplashController> {
         child: Center(
           child: Stack(
             children: [
+              // Align(
+              //   alignment: Alignment.center,
+              //   child: Image.asset(
+              //     'assets/img/logo.png',
+              //     width: size.width / 2.5,
+              //   ),
+              // ),
               Align(
                 alignment: Alignment.center,
-                child: Image.asset(
-                  'assets/img/logo.png',
-                  width: size.width / 2.5,
-                ),
-              ),
-              Align(
-                alignment: Alignment.bottomCenter,
                 child: Lottie.asset(
                   'assets/anim/anim_loading.json',
                   height: size.height / 8,
