@@ -1,0 +1,28 @@
+class DataUmum {
+  final datas = [
+    "ID",
+    "ID Kecamatan",
+    "ID Kelurahan",
+    "No Urut",
+    "Nama Lingkungan",
+    "Pkk RW",
+    "PKK RT",
+    "Dasawisma",
+    "Kepala Rumah Tangga",
+    "Kepala Keluarga",
+    "Jumlah Jiwa Laki",
+    "Jumlah Jiwa Perempuan",
+    "Anggota TP PKK Laki",
+    "Anggota TP PKK Perempuan",
+    "Kader Umum Laki",
+    "Kader Umum Perempuan",
+    "Kader Khusus Laki",
+    "Kader Khusus Perempuan",
+    "JUMLAH TENAGA SEKRETARIAT Honorer Laki",
+    "JUMLAH TENAGA SEKRETARIAT Honorer Perempuan",
+    "JUMLAH TENAGA SEKRETARIAT Bantuan Laki",
+    "JUMLAH TENAGA SEKRETARIAT Bantuan Perempuan",
+    "Keterangan",
+    "Status",
+  ];
+}

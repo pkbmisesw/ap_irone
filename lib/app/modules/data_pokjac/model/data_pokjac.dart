@@ -1,0 +1,48 @@
+class DataPokjac {
+  final datas = [
+    'Nama Lingkungan',
+    'Jumlah Kader Pangan',
+    'Jumlah Kader Sandang',
+    'Jumlah Kader Tata Laksana Rumah Tangga',
+    'Pangan Makanan Pokok Beras',
+    'Pangan Makanan Pokok Non Beras',
+    'Pangan Pemanfaatan Pekarangan Peternakan',
+    'Pangan Pemanfaatan Pekarangan Perikanan',
+    'Pangan Pemanfaatan Pekarangan Warung Hidup',
+    'Pangan Pemanfaatan Pekarangan Lumbung Hidup',
+    'Pangan Pemanfaatan Pekarangan Toga',
+    'Pangan Pemanfaatan Pekarangan Tanaman Keras',
+    'Jumlah Industri Pangan',
+    'Jumlah Industri Sandang',
+    'Jumlah Industri Jasa',
+    'Jumlah Rumah Sehat',
+    'Jumlah Rumah Tidak Sehat',
+    'Keterangan',
+    'Status'
+  ];
+
+  final Map<String, dynamic> newData = {
+    "id": 141,
+    "id_kec": 8,
+    "id_kel": 65,
+    "nama_ling": 'Kosong',
+    "j_pkbn": 0,
+    "j_pkdrt": 0,
+    "pola_asuh": 0,
+    "p_pkbn_simulasi": 0,
+    "p_pkbn_anggota": 0,
+    "p_pkdrt_simulasi": 0,
+    "p_pkdrt_anggota": 0,
+    "pola_kelompok": 0,
+    "pola_anggota": 0,
+    "lansia_kelompok": 0,
+    "lansia_anggota": 0,
+    "g_jum_ker": 0,
+    "g_jum_ruk": 0,
+    "g_jum_agama": 0,
+    "g_jum_jimpit": 0,
+    "g_jum_arisan": 0,
+    "ket": 'Kosong',
+    "status": 1,
+  };
+}

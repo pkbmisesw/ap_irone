@@ -1,0 +1,31 @@
+class DataPokjad {
+  final datas = [
+    'Nama Lingkungan',
+    'Jumlah Kader Posyandu',
+    'Jumlah Kader Gizi',
+    'Jumlah Kader Kesling',
+    'Jumlah Kader Penyuluhan Narkoba',
+    'Jumlah Kader PHBS',
+    'Jumlah Kader KB',
+    'Kesehatan Posyandu Jumlah',
+    'Kesehatan Posyandu Terintegrasi',
+    'Kesehatan Posyandu Lansia Jumlah Kelompok',
+    'Kesehatan Posyandu Lansia Jumlah Anggota',
+    'Kesehatan Posyandu Lansia Jumlah Memiliki Kartu',
+    'Jumlah Jamban',
+    'Jumlah SPAL',
+    'Jumlah Tempat Pembuangan Sampah',
+    'Jumlah MCK',
+    'Jumlah KRT PDAM',
+    'Jumlah KRT SUMUR',
+    'Jumlah KRT SUNGAI',
+    'Jumlah KRT Lain-Lain',
+    'Jumlah PUS',
+    'Jumlah WUS',
+    'JUMLAH AKSEPTOR KB Laki',
+    'JUMLAH AKSEPTOR KB Perempuan',
+    'JUMLAH KK YANG MEMILIKI TABUNGAN',
+    'Keterangan',
+    'Status'
+  ];
+}
