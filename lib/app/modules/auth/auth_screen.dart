@@ -23,22 +23,22 @@ class AuthScreen extends StatelessWidget {
                   SizedBox(
                     height: 10,
                   ),
-                  Row(
-                    children: [
-                      Text(
-                        'Powered by : ',
-                        style: GoogleFonts.poppins(
-                          fontSize: 16,
-                          fontWeight: FontWeight.w500,
-                          color: Colors.black87,
-                        ),
-                      ),
-                      Image.asset(
-                        'assets/img/logo.png',
-                        height: 22,
-                      ),
-                    ],
-                  ),
+                  // Row(
+                  //   children: [
+                  //     Text(
+                  //       'Powered by : ',
+                  //       style: GoogleFonts.poppins(
+                  //         fontSize: 16,
+                  //         fontWeight: FontWeight.w500,
+                  //         color: Colors.black87,
+                  //       ),
+                  //     ),
+                  //     Image.asset(
+                  //       'assets/img/logo.png',
+                  //       height: 22,
+                  //     ),
+                  //   ],
+                  // ),
                   SizedBox(
                     height: MediaQuery.of(context).size.height / 17,
                   ),
@@ -61,7 +61,7 @@ class AuthScreen extends StatelessWidget {
                     height: 10,
                   ),
                   Text(
-                    'Selamat datang di sistem informasi PKK Bitung Digital',
+                    'Selamat datang di Iron Smartdik',
                     textAlign: TextAlign.center,
                     style: GoogleFonts.poppins(
                       fontSize: 16,
