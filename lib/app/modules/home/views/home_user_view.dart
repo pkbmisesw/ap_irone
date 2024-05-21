@@ -72,28 +72,29 @@ class HomeUserView extends GetView<HomeUserController> {
           GestureDetector(
             onTap: () => controller.openDrawer(),
             child: Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8),
-              child: CachedNetworkImage(
-                imageUrl: 'https://tppkk-bitung.com/images/logoza.png',
-                imageBuilder: (context, imageProvider) => CircleAvatar(
-                  // maxRadius: SharedSize.px24,
-                  backgroundImage: imageProvider,
+                padding: const EdgeInsets.symmetric(vertical: 8),
+                child: Image.asset('assets/logo/logoPng.png')
+                //  CachedNetworkImage(
+                //   imageUrl: 'https://tppkk-bitung.com/images/logoza.png',
+                //   imageBuilder: (context, imageProvider) => CircleAvatar(
+                //     // maxRadius: SharedSize.px24,
+                //     backgroundImage: imageProvider,
+                //   ),
+                //   placeholder: (context, url) => const CircleAvatar(
+                //           // maxRadius: SharedSize.px24
+                //           )
+                //       .animate(onPlay: (controller) => controller.repeat())
+                //       .shimmer(
+                //         duration: 1800.ms,
+                //         color: theme.colorScheme.onSurface,
+                //       ),
+                //   errorWidget: (context, url, error) => const CircleAvatar(
+                //     // maxRadius: SharedSize.px24,
+                //     backgroundImage:
+                //         AssetImage('assets/img/placeholder_no_photo.png'),
+                //   ),
+                // ),
                 ),
-                placeholder: (context, url) => const CircleAvatar(
-                        // maxRadius: SharedSize.px24
-                        )
-                    .animate(onPlay: (controller) => controller.repeat())
-                    .shimmer(
-                      duration: 1800.ms,
-                      color: theme.colorScheme.onSurface,
-                    ),
-                errorWidget: (context, url, error) => const CircleAvatar(
-                  // maxRadius: SharedSize.px24,
-                  backgroundImage:
-                      AssetImage('assets/img/placeholder_no_photo.png'),
-                ),
-              ),
-            ),
           ),
           const SizedBox(width: 8),
         ],
