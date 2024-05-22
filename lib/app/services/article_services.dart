@@ -9,6 +9,7 @@ class ArticleServices {
   Future<ArticleModel> getPosting() {
     dio.options.baseUrl = ConstantsEndpoints.main;
 
+    print(dio.options.baseUrl);
     return dio.get('berita').then((value) => ArticleModel.fromJson(value.data));
   }
 }

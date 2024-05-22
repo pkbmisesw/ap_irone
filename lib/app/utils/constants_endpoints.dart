@@ -1,5 +1,5 @@
 abstract class ConstantsEndpoints {
-  static const main = 'https://app2.tppkk-bitung.com/api/';
+  static const main = 'https://app.ironesmartdik.com/api/';
 
-  static const urlImgBanner = 'https://tppkk-bitung.com/images/';
+  static const urlImgBanner = 'https://ironesmartdik.com/images/';
 }

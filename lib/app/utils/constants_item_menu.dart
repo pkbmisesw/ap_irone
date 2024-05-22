@@ -186,7 +186,7 @@ final listMenuUser = [
   const ItemMenuDB(
     id: 2,
     title: 'Sekolah',
-    assetsImg: 'assets/ic/ic_team.png',
+    assetsImg: 'assets/ic/sekolah.png',
     routeName: Routes.PENGURUS,
   ),
   const ItemMenuDB(
@@ -197,13 +197,13 @@ final listMenuUser = [
   const ItemMenuDB(
     id: 4,
     title: 'Perpus',
-    assetsImg: 'assets/ic/ic_structure.png',
+    assetsImg: 'assets/ic/perpus.png',
     image: 'assets/img/banner/banner_3.jpg',
   ),
   const ItemMenuDB(
     id: 5,
     title: 'Pegawai',
-    assetsImg: 'assets/ic/ic_law.png',
+    assetsImg: 'assets/ic/ic_team.png',
     // routeName: Routes.LAW,
   ),
   const ItemMenuDB(
