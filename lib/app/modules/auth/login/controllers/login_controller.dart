@@ -4,6 +4,7 @@ import 'package:irone/app/routes/app_pages.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:irone/local_storage/local_storage_helper.dart';
 import 'package:logger/logger.dart';
 import 'package:irone/app/services/auth_services.dart';
 import 'package:irone/app/shared/shared_method.dart';
@@ -66,6 +67,7 @@ class LoginController extends GetxController {
   Future<void> checkIsUserExist(ThemeData theme) async {
     final isValid = formKey.currentState!.validate();
     if (isValid) {
+      await SharedPreferenceHelper.setLogin(1);
       moveToPage(Routes.MAIN_USER);
 
       return;

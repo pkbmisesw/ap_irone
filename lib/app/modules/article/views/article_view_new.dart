@@ -196,7 +196,7 @@ class _ArticleViewNewState extends State<ArticleViewNew> {
                     controller: loadedImageCount < controller.dataValue.length
                         ? scrollController
                         : null, // Nonaktifkan scroll jika semua gambar telah ditampilkan
-                    itemCount: loadedImageCount,
+                    itemCount: controller.dataValue.length,
                     itemBuilder: (context, index) {
                       final data = controller.dataValue[index];
                       if (index == controller.dataValue.length - 1 &&

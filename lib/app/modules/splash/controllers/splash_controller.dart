@@ -1,5 +1,6 @@
 import 'package:irone/app/routes/app_pages.dart';
 import 'package:get/get.dart';
+import 'package:irone/main.dart';
 import 'package:logger/logger.dart';
 import 'package:irone/app/shared/values.dart';
 
@@ -23,17 +24,19 @@ class SplashController extends GetxController {
     final int levelDB =
         int.parse(await initC.storage.read(key: extraAuthLevel) ?? '0');
 
-    if (tokenDB != null) {
-      switch (levelDB) {
-        case levelSuperAdmin:
-          moveToPage(Routes.MAIN_SUPER_ADMIN);
-        case levelAdmin:
-          moveToPage(Routes.MAIN_ADMIN);
-        case levelUser:
-          moveToPage(Routes.MAIN_USER);
-        case levelAdminKecamatan:
-          moveToPage(Routes.MAIN_ADMIN_KEC);
-      }
+    if (loginStatus) {
+      moveToPage(Routes.MAIN_USER);
+
+      // switch (levelDB) {
+      //   case levelSuperAdmin:
+      //     moveToPage(Routes.MAIN_SUPER_ADMIN);
+      //   case levelAdmin:
+      //     moveToPage(Routes.MAIN_ADMIN);
+      //   case levelUser:
+      //     moveToPage(Routes.MAIN_USER);
+      //   case levelAdminKecamatan:
+      //     moveToPage(Routes.MAIN_ADMIN_KEC);
+      // }
 
       // if (token == tokenDB) {
       // }

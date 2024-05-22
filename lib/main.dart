@@ -5,13 +5,21 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 import 'package:irone/app/shared/shared_theme.dart';
 import 'package:irone/app/utils/local_db.dart';
+import 'package:irone/local_storage/local_storage_helper.dart';
 
 import '../app/modules/init/bindings/init_binding.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
+bool loginStatus = false;
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await dotenv.load();
+
+  int? statusPrelogin = await SharedPreferenceHelper.getDatalogin();
+  if (statusPrelogin == 1) {
+    loginStatus = true;
+  }
+
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
       .then((_) async {
     await LocalDb.init();

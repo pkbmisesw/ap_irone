@@ -3,6 +3,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:irone/local_storage/local_storage_helper.dart';
 import 'package:logger/logger.dart';
 import 'package:irone/app/data/models/article/item_article_model.dart';
 import 'package:irone/app/data/models/banner/item_banner_model.dart';
@@ -114,6 +115,8 @@ class HomeUserController extends GetxController {
           TextButton(
             onPressed: () async {
               // remove all sharedpreferences
+
+              await SharedPreferenceHelper.setLogin(0);
               await initC.storage.deleteAll();
               Get.offAllNamed(Routes.LOGIN);
             },
