@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/modules/data_pokjab/models/data_pokjab_model.dart';
+import 'package:silahan_kawan/app/modules/data_pokjab/models/data_pokjab_model.dart';
 import '../../../utils/local_db.dart';
 import 'package:http/http.dart' as http;
 // ignore: depend_on_referenced_packages

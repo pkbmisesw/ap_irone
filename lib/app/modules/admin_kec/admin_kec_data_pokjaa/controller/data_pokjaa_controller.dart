@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/modules/data_pokjaa/models/data_pokja_model.dart';
-import 'package:irone/app/utils/local_db.dart';
+import 'package:silahan_kawan/app/modules/data_pokjaa/models/data_pokja_model.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
 
 class AdminKecDataKecPokjaaController extends GetxController {
   late DataPokjaModel dataPokjaMDataPokjaModel;

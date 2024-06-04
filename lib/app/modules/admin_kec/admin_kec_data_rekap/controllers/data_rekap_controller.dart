@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/modules/data_rekap/models/data_rekap_models.dart';
-import 'package:irone/app/services/base_dio.dart';
-import 'package:irone/app/shared/shared_method.dart';
-import 'package:irone/app/utils/constants_endpoints.dart';
-import 'package:irone/app/utils/local_db.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/models/data_rekap_models.dart';
+import 'package:silahan_kawan/app/services/base_dio.dart';
+import 'package:silahan_kawan/app/shared/shared_method.dart';
+import 'package:silahan_kawan/app/utils/constants_endpoints.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
 
 class AdminKecDataRekapServices extends GetxController {
   late DataRekapModels dataRekapModels;

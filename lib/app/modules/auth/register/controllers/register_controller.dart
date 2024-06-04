@@ -1,10 +1,10 @@
-import 'package:irone/app/modules/init/controllers/init_controller.dart';
+import 'package:silahan_kawan/app/modules/init/controllers/init_controller.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:logger/logger.dart';
-import 'package:irone/app/services/auth_services.dart';
-import 'package:irone/app/shared/shared_method.dart';
+import 'package:silahan_kawan/app/services/auth_services.dart';
+import 'package:silahan_kawan/app/shared/shared_method.dart';
 
 class RegisterController extends GetxController {
   late final InitController initC;

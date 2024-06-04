@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import 'package:irone/app/modules/home/controllers/home_admin_controller.dart';
+import 'package:silahan_kawan/app/modules/home/controllers/home_admin_controller.dart';
 
 class HomeBinding extends Bindings {
   @override

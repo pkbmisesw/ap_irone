@@ -2,10 +2,10 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
-import 'package:irone/app/modules/home/views/appbar.dart';
-import 'package:irone/app/modules/home/widget/button_list.dart';
-import 'package:irone/app/widgets/loader.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/app/modules/home/views/appbar.dart';
+import 'package:silahan_kawan/app/modules/home/widget/button_list.dart';
+import 'package:silahan_kawan/app/widgets/loader.dart';
+import 'package:silahan_kawan/theme.dart';
 import '../controllers/detail_pkk_controller.dart';
 import '../services/detail_pkk_services.dart';
 

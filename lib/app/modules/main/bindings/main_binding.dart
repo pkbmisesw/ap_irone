@@ -1,8 +1,8 @@
-import 'package:irone/app/modules/article/controllers/article_controller.dart';
-import 'package:irone/app/modules/home/controllers/home_super_admin_controller.dart';
+import 'package:silahan_kawan/app/modules/article/controllers/article_controller.dart';
+import 'package:silahan_kawan/app/modules/home/controllers/home_super_admin_controller.dart';
 import 'package:get/get.dart';
 
-import 'package:irone/app/modules/main/controllers/main_super_admin_controller.dart';
+import 'package:silahan_kawan/app/modules/main/controllers/main_super_admin_controller.dart';
 
 import '../../home/controllers/home_admin_kecamatan_controller.dart';
 import '../../home/controllers/home_user_controller.dart';

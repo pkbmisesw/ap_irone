@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
-import 'package:irone/app/utils/constants_lottie.dart';
+import 'package:silahan_kawan/app/utils/constants_lottie.dart';
 
 abstract class ResultWidget {
   static final _size = Get.size;

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/modules/data_rekap/widget/bottomsheet.dart';
-import 'package:irone/app/modules/home/views/appbar.dart';
-import 'package:irone/app/modules/super_admin/data_rekap_all/controller/data_rekap_all_controller.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/widget/bottomsheet.dart';
+import 'package:silahan_kawan/app/modules/home/views/appbar.dart';
+import 'package:silahan_kawan/app/modules/super_admin/data_rekap_all/controller/data_rekap_all_controller.dart';
+import 'package:silahan_kawan/theme.dart';
 import 'package:remixicon/remixicon.dart';
 
 import 'data_rekap_all_barchart.dart';

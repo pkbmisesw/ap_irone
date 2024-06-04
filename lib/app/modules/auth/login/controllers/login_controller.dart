@@ -1,15 +1,15 @@
-import 'package:irone/app/data/models/auth/login/users_model.dart';
-import 'package:irone/app/modules/init/controllers/init_controller.dart';
-import 'package:irone/app/routes/app_pages.dart';
+import 'package:silahan_kawan/app/data/models/auth/login/users_model.dart';
+import 'package:silahan_kawan/app/modules/init/controllers/init_controller.dart';
+import 'package:silahan_kawan/app/routes/app_pages.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/local_storage/local_storage_helper.dart';
+import 'package:silahan_kawan/local_storage/local_storage_helper.dart';
 import 'package:logger/logger.dart';
-import 'package:irone/app/services/auth_services.dart';
-import 'package:irone/app/shared/shared_method.dart';
-import 'package:irone/app/shared/values.dart';
-import 'package:irone/app/utils/local_db.dart';
+import 'package:silahan_kawan/app/services/auth_services.dart';
+import 'package:silahan_kawan/app/shared/shared_method.dart';
+import 'package:silahan_kawan/app/shared/values.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
 
 class LoginController extends GetxController {
   late final InitController initC;
@@ -18,6 +18,7 @@ class LoginController extends GetxController {
   late final TextEditingController passwordC;
   late final AuthServices _authService;
 
+  final RxBool isRemember = false.obs;
   final email = ''.obs;
   final isLoading = false.obs;
   final isObscure = true.obs;

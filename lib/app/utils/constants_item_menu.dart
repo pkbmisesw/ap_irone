@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:irone/app/data/db/item_menu_db.dart';
-import 'package:irone/app/routes/app_pages.dart';
+import 'package:silahan_kawan/app/data/db/item_menu_db.dart';
+import 'package:silahan_kawan/app/routes/app_pages.dart';
 import 'package:remixicon/remixicon.dart';
 
 const listMenuSuperAdmin = [

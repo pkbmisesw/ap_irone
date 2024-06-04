@@ -1,6 +1,6 @@
-import 'package:irone/app/data/models/input_data.dart';
-import 'package:irone/app/services/base_dio.dart';
-import 'package:irone/app/utils/constants_endpoints.dart';
+import 'package:silahan_kawan/app/data/models/input_data.dart';
+import 'package:silahan_kawan/app/services/base_dio.dart';
+import 'package:silahan_kawan/app/utils/constants_endpoints.dart';
 
 class InputDataServices {
   final dio = BaseDio().dio;

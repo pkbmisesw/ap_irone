@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:fl_chart/fl_chart.dart';
-import 'package:irone/app/modules/data_pokjaa/models/data_pokja.dart';
-import 'package:irone/app/modules/data_pokjaa/models/data_pokja_model.dart';
-import 'package:irone/app/services/data_services/data_pokjaa_services.dart';
-import 'package:irone/app/widgets/selector/multi_select.dart';
-import 'package:irone/app/widgets/selector/single_select.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/app/modules/data_pokjaa/models/data_pokja.dart';
+import 'package:silahan_kawan/app/modules/data_pokjaa/models/data_pokja_model.dart';
+import 'package:silahan_kawan/app/services/data_services/data_pokjaa_services.dart';
+import 'package:silahan_kawan/app/widgets/selector/multi_select.dart';
+import 'package:silahan_kawan/app/widgets/selector/single_select.dart';
+import 'package:silahan_kawan/theme.dart';
 
 class AdminKecDataPokjaaLineScreen extends StatefulWidget {
   @override

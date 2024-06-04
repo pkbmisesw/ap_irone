@@ -1,7 +1,7 @@
-import 'package:irone/app/data/models/auth/login/users_model.dart';
-import 'package:irone/app/modules/article/views/article_view_new.dart';
-import 'package:irone/app/modules/home/views/home_super_admin_view.dart';
-import 'package:irone/app/modules/main/controllers/main_super_admin_controller.dart';
+import 'package:silahan_kawan/app/data/models/auth/login/users_model.dart';
+import 'package:silahan_kawan/app/modules/article/views/article_view_new.dart';
+import 'package:silahan_kawan/app/modules/home/views/home_super_admin_view.dart';
+import 'package:silahan_kawan/app/modules/main/controllers/main_super_admin_controller.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';

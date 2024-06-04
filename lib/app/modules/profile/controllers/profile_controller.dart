@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 import 'package:logger/logger.dart';
-import 'package:irone/app/data/models/profile/item_profile_model.dart';
-import 'package:irone/app/services/profile_services.dart';
+import 'package:silahan_kawan/app/data/models/profile/item_profile_model.dart';
+import 'package:silahan_kawan/app/services/profile_services.dart';
 
 class ProfileController extends GetxController {
   late final ProfileServices _profileServices;

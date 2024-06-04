@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:irone/app/modules/data_pokjaa/models/data_pokja.dart';
-import 'package:irone/app/services/data_services/data_pokjaa_services.dart';
+import 'package:silahan_kawan/app/modules/data_pokjaa/models/data_pokja.dart';
+import 'package:silahan_kawan/app/services/data_services/data_pokjaa_services.dart';
 import 'package:syncfusion_flutter_datagrid/datagrid.dart';
 
 import '../models/data_pokja_model.dart';

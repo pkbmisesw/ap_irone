@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/modules/super_admin/data_pokjaa/view/super_admin_data_pokjaa_piechart.dart';
+import 'package:silahan_kawan/app/modules/super_admin/data_pokjaa/view/super_admin_data_pokjaa_piechart.dart';
 
 import '../../widget/super_admin_list_card.dart';
 import 'super_admin_data_pokjaa_list.dart';

@@ -1,12 +1,12 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:irone/app/data/models/law/item_law_model.dart';
-import 'package:irone/app/routes/app_pages.dart';
+import 'package:silahan_kawan/app/data/models/law/item_law_model.dart';
+import 'package:silahan_kawan/app/routes/app_pages.dart';
 import 'package:dio/dio.dart';
 import 'package:get/get.dart';
 import 'package:logger/logger.dart';
-import 'package:irone/app/services/law_services.dart';
+import 'package:silahan_kawan/app/services/law_services.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
 

@@ -1,8 +1,8 @@
 import 'dart:developer';
 
-import 'package:irone/app/data/models/auth/login/login_model.dart';
-import 'package:irone/app/data/models/auth/register/register_model/register_model.dart';
-import 'package:irone/app/utils/constants_endpoints.dart';
+import 'package:silahan_kawan/app/data/models/auth/login/login_model.dart';
+import 'package:silahan_kawan/app/data/models/auth/register/register_model/register_model.dart';
+import 'package:silahan_kawan/app/utils/constants_endpoints.dart';
 
 import 'base_dio.dart';
 

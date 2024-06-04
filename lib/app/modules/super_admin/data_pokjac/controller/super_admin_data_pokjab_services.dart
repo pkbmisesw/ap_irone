@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:irone/app/modules/data_pokjac/model/data_pokjac_model.dart';
+import 'package:silahan_kawan/app/modules/data_pokjac/model/data_pokjac_model.dart';
 
 class DataPokjacServicesSuper extends ChangeNotifier {
   List<DataPokjacModel> _data = [];

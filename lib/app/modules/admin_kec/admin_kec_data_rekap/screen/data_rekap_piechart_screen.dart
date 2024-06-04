@@ -3,10 +3,10 @@ import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:irone/app/modules/data_rekap/models/data_rekap_models.dart';
-import 'package:irone/app/modules/home/views/appbar.dart';
-import 'package:irone/app/modules/home/widget/button_list.dart';
-import 'package:irone/app/services/data_services/data_services.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/models/data_rekap_models.dart';
+import 'package:silahan_kawan/app/modules/home/views/appbar.dart';
+import 'package:silahan_kawan/app/modules/home/widget/button_list.dart';
+import 'package:silahan_kawan/app/services/data_services/data_services.dart';
 
 class AdminKecDataRekapPieScreen extends StatefulWidget {
   const AdminKecDataRekapPieScreen({super.key});

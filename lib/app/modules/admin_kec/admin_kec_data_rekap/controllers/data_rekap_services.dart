@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/modules/data_rekap/models/data_rekap_models.dart';
-import 'package:irone/app/utils/local_db.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/models/data_rekap_models.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
 
 class AdminKecDataRekapServicesX extends ChangeNotifier {
   List<DataRekapModels> _data = [];

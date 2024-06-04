@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
-import 'package:irone/app/modules/article/views/article_view_new.dart';
-import 'package:irone/app/modules/auth/auth_screen.dart';
+import 'package:silahan_kawan/app/modules/article/views/article_view_new.dart';
+import 'package:silahan_kawan/app/modules/auth/auth_screen.dart';
 
 import '../modules/article/bindings/article_binding.dart';
 import '../modules/article/views/article_view.dart';
@@ -56,11 +56,11 @@ class AppPages {
       page: () => const SplashView(),
       binding: SplashBinding(),
     ),
-    GetPage(
-      name: _Paths.LOGIN,
-      page: () => const AuthScreen(),
-      binding: LoginBinding(),
-    ),
+    // GetPage(
+    //   name: _Paths.LOGIN,
+    //   page: () => const AuthScreen(),
+    //   binding: LoginBinding(),
+    // ),
     GetPage(
       name: _Paths.REGISTER,
       page: () => RegistScreen(),

@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:irone/app/modules/data_rekap/widget/sizedbox_extension.dart';
-import 'package:irone/app/modules/data_umum/model/data_umum_models.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/widget/sizedbox_extension.dart';
+import 'package:silahan_kawan/app/modules/data_umum/model/data_umum_models.dart';
 
 import '../controller/data_umum_controller.dart';
 

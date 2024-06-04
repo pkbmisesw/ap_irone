@@ -2,8 +2,8 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:irone/app/modules/data_umum/model/data_umum_models.dart';
-import 'package:irone/app/utils/local_db.dart';
+import 'package:silahan_kawan/app/modules/data_umum/model/data_umum_models.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
 
 class DataUmumServicesSuper extends ChangeNotifier {
   List<DataUmumModel> _data = [];

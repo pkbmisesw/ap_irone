@@ -1,10 +1,10 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:irone/app/data/models/pengurus/item_pengurus_model.dart';
-import 'package:irone/app/utils/constants_endpoints.dart';
+import 'package:silahan_kawan/app/data/models/pengurus/item_pengurus_model.dart';
+import 'package:silahan_kawan/app/utils/constants_endpoints.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/theme.dart';
 
 class PengurusDetail extends StatelessWidget {
   const PengurusDetail({super.key, required this.data});

@@ -2,9 +2,9 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
 import 'package:logger/logger.dart';
-import 'package:irone/app/data/models/article/item_article_model.dart';
-import 'package:irone/app/routes/app_pages.dart';
-import 'package:irone/app/services/article_services.dart';
+import 'package:silahan_kawan/app/data/models/article/item_article_model.dart';
+import 'package:silahan_kawan/app/routes/app_pages.dart';
+import 'package:silahan_kawan/app/services/article_services.dart';
 
 class ArticleController extends GetxController {
   final ArticleServices articleServices = ArticleServices();

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/modules/auth/register/controllers/register_controller.dart';
-import 'package:irone/app/shared/cards.dart';
-import 'package:irone/app/widgets/textformfield/custom_text_from_field.dart';
+import 'package:silahan_kawan/app/modules/auth/register/controllers/register_controller.dart';
+import 'package:silahan_kawan/app/shared/cards.dart';
+import 'package:silahan_kawan/app/widgets/textformfield/custom_text_from_field.dart';
 
 class RegisterView extends GetView<RegisterController> {
   const RegisterView({Key? key}) : super(key: key);

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:irone/app/modules/data_rekap/widget/sizedbox_extension.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/widget/sizedbox_extension.dart';
 import 'package:remixicon/remixicon.dart';
 
 class StepperStatus extends StatelessWidget {

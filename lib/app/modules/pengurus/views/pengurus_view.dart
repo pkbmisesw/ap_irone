@@ -5,11 +5,11 @@ import 'package:flutter_animate/flutter_animate.dart';
 
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:irone/app/data/models/pengurus/item_pengurus_model.dart';
-import 'package:irone/app/modules/pengurus/views/pengurus_detail.dart';
-import 'package:irone/app/shared/shared_theme.dart';
-import 'package:irone/app/utils/constants_endpoints.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/app/data/models/pengurus/item_pengurus_model.dart';
+import 'package:silahan_kawan/app/modules/pengurus/views/pengurus_detail.dart';
+import 'package:silahan_kawan/app/shared/shared_theme.dart';
+import 'package:silahan_kawan/app/utils/constants_endpoints.dart';
+import 'package:silahan_kawan/theme.dart';
 import 'package:remixicon/remixicon.dart';
 
 import '../controllers/pengurus_controller.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/theme.dart';
 import 'package:remixicon/remixicon.dart';
 
 class ExpandedParent extends StatelessWidget {

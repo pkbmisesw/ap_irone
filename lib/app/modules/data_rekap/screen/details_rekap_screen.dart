@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/modules/data_rekap/controllers/data_rekap_controller.dart';
-import 'package:irone/app/modules/data_rekap/models/data_rekap_models.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/controllers/data_rekap_controller.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/models/data_rekap_models.dart';
 
 class DataDetailsRekapScreen extends StatelessWidget {
   DataDetailsRekapScreen({super.key, required this.data});

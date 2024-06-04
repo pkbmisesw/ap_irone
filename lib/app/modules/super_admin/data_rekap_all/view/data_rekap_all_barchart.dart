@@ -2,11 +2,11 @@ import 'dart:convert';
 
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-import 'package:irone/app/modules/data_rekap/models/model_chart.dart';
-import 'package:irone/app/modules/data_rekap/widget/sizedbox_extension.dart';
-import 'package:irone/app/modules/home/views/appbar.dart';
-import 'package:irone/app/services/data_services/data_services.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/models/model_chart.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/widget/sizedbox_extension.dart';
+import 'package:silahan_kawan/app/modules/home/views/appbar.dart';
+import 'package:silahan_kawan/app/services/data_services/data_services.dart';
+import 'package:silahan_kawan/theme.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 

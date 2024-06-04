@@ -5,12 +5,12 @@ import 'package:flutter_animate/flutter_animate.dart';
 
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:irone/app/data/models/article/item_article_model.dart';
-import 'package:irone/app/modules/article_detail/controllers/article_detail_controller.dart';
-import 'package:irone/app/shared/cards.dart';
-import 'package:irone/app/shared/shared_method.dart';
-import 'package:irone/app/shared/shared_theme.dart';
-import 'package:irone/app/utils/constants_endpoints.dart';
+import 'package:silahan_kawan/app/data/models/article/item_article_model.dart';
+import 'package:silahan_kawan/app/modules/article_detail/controllers/article_detail_controller.dart';
+import 'package:silahan_kawan/app/shared/cards.dart';
+import 'package:silahan_kawan/app/shared/shared_method.dart';
+import 'package:silahan_kawan/app/shared/shared_theme.dart';
+import 'package:silahan_kawan/app/utils/constants_endpoints.dart';
 
 class ArticleDetailView extends GetView<ArticleDetailController> {
   const ArticleDetailView({Key? key}) : super(key: key);

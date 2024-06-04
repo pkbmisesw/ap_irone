@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/utils/local_db.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
 
 import '../model/data_pokjac_model.dart';
 

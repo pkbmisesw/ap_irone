@@ -2,11 +2,11 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/data/models/article/item_article_model.dart';
-import 'package:irone/app/shared/shared_method.dart';
-import 'package:irone/app/shared/shared_theme.dart';
-import 'package:irone/app/utils/constants.values.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/app/data/models/article/item_article_model.dart';
+import 'package:silahan_kawan/app/shared/shared_method.dart';
+import 'package:silahan_kawan/app/shared/shared_theme.dart';
+import 'package:silahan_kawan/app/utils/constants.values.dart';
+import 'package:silahan_kawan/theme.dart';
 
 import '../../../utils/constants_endpoints.dart';
 import '../controllers/article_controller.dart';

@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:irone/app/modules/data_pokjaa/models/data_pokja_model.dart';
-import 'package:irone/app/modules/data_rekap/models/data_rekap_models.dart';
-import 'package:irone/app/modules/data_rekap/widget/sizedbox_extension.dart';
+import 'package:silahan_kawan/app/modules/data_pokjaa/models/data_pokja_model.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/models/data_rekap_models.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/widget/sizedbox_extension.dart';
 import '../controllers/data_rekap_controller.dart';
 
 class AdminKecDataRekapScreenNew extends StatefulWidget {

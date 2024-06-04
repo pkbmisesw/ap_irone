@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/theme.dart';
 import 'multi_select.dart';
 
 class SingleSelect<T extends Object> extends StatefulWidget {

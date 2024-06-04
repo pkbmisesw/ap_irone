@@ -1,23 +1,23 @@
-import 'package:irone/app/data/db/item_menu_db.dart';
-import 'package:irone/app/data/models/auth/login/users_model.dart';
-import 'package:irone/app/data/models/banner/item_banner_model.dart';
-import 'package:irone/app/modules/data_rekap/widget/sizedbox_extension.dart';
-import 'package:irone/app/modules/home/controllers/home_super_admin_controller.dart';
+import 'package:silahan_kawan/app/data/db/item_menu_db.dart';
+import 'package:silahan_kawan/app/data/models/auth/login/users_model.dart';
+import 'package:silahan_kawan/app/data/models/banner/item_banner_model.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/widget/sizedbox_extension.dart';
+import 'package:silahan_kawan/app/modules/home/controllers/home_super_admin_controller.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 import 'package:get/get.dart';
-import 'package:irone/app/modules/super_admin/data_pokjac/view/super_admin_data_pokjac.dart';
-import 'package:irone/app/modules/super_admin/data_pokjad/view/super_admin_data_pokjad.dart';
-import 'package:irone/app/modules/super_admin/data_rekap_all/view/data_rekap_all.dart';
-import 'package:irone/app/routes/app_pages.dart';
-import 'package:irone/app/shared/values.dart';
-import 'package:irone/app/utils/constants_endpoints.dart';
-import 'package:irone/app/utils/constants_item_menu.dart';
-import 'package:irone/app/widgets/errors/card_error_item.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/app/modules/super_admin/data_pokjac/view/super_admin_data_pokjac.dart';
+import 'package:silahan_kawan/app/modules/super_admin/data_pokjad/view/super_admin_data_pokjad.dart';
+import 'package:silahan_kawan/app/modules/super_admin/data_rekap_all/view/data_rekap_all.dart';
+import 'package:silahan_kawan/app/routes/app_pages.dart';
+import 'package:silahan_kawan/app/shared/values.dart';
+import 'package:silahan_kawan/app/utils/constants_endpoints.dart';
+import 'package:silahan_kawan/app/utils/constants_item_menu.dart';
+import 'package:silahan_kawan/app/widgets/errors/card_error_item.dart';
+import 'package:silahan_kawan/theme.dart';
 import 'package:remixicon/remixicon.dart';
 
 import '../../super_admin/data_pokjaa/view/super_admin_data_pokjaa.dart';

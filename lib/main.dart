@@ -1,11 +1,11 @@
-import 'package:irone/app/routes/app_pages.dart';
+import 'package:silahan_kawan/app/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/shared/shared_theme.dart';
-import 'package:irone/app/utils/local_db.dart';
-import 'package:irone/local_storage/local_storage_helper.dart';
+import 'package:silahan_kawan/app/shared/shared_theme.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
+import 'package:silahan_kawan/local_storage/local_storage_helper.dart';
 
 import '../app/modules/init/bindings/init_binding.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -31,10 +31,10 @@ class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext ngcontext) {
     return GetMaterialApp(
       initialBinding: InitBinding(),
-      title: 'PKK Bitung Digital',
+      title: 'Silahan Kawan',
       theme: SharedTheme.lightTheme,
       darkTheme: SharedTheme.darkTheme,
       initialRoute: Routes.SPLASH,

@@ -1,4 +1,4 @@
-import 'package:irone/app/data/models/auth/login/users_model.dart';
+import 'package:silahan_kawan/app/data/models/auth/login/users_model.dart';
 
 class LoginModel {
   final String token;

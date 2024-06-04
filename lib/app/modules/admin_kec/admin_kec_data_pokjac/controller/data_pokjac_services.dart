@@ -5,8 +5,8 @@ import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 // ignore: depend_on_referenced_packages
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:irone/app/modules/data_pokjac/model/data_pokjac_model.dart';
-import 'package:irone/app/utils/local_db.dart';
+import 'package:silahan_kawan/app/modules/data_pokjac/model/data_pokjac_model.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
 
 class AdminKecDataPokjacServices extends ChangeNotifier {
   List<DataPokjacModel> _data = [];

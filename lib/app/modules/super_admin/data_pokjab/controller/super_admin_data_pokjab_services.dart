@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:irone/app/modules/data_pokjab/models/data_pokjab_model.dart';
+import 'package:silahan_kawan/app/modules/data_pokjab/models/data_pokjab_model.dart';
 
 class DataPokjabServicesSuper extends ChangeNotifier {
   List<DataPokjabModel> _data = [];

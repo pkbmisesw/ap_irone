@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:irone/app/modules/detail_pkk/model/image_model.dart';
+import 'package:silahan_kawan/app/modules/detail_pkk/model/image_model.dart';
 
 class DetailPkkServices {
   String? baseUrl = dotenv.env['BASE_URL'];

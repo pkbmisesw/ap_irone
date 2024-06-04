@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-import 'package:irone/app/modules/home/views/appbar.dart';
+import 'package:silahan_kawan/app/modules/home/views/appbar.dart';
 
 import '../model/data_rekap_all_kecmaatan_pie_model.dart';
 import 'package:get/get.dart';

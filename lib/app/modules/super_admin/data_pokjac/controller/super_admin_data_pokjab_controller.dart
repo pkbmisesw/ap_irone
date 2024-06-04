@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/modules/data_pokjac/model/data_pokjac_model.dart';
+import 'package:silahan_kawan/app/modules/data_pokjac/model/data_pokjac_model.dart';
 // ignore: unused_import
-import 'package:irone/app/modules/data_rekap/models/data_rekap_models.dart';
-import 'package:irone/app/modules/data_umum/model/data_umum_models.dart';
-import 'package:irone/app/utils/local_db.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/models/data_rekap_models.dart';
+import 'package:silahan_kawan/app/modules/data_umum/model/data_umum_models.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
 
 class SuperAdminDataRekapServices extends GetxController {
   late DataUmumModel dataUmumModel;

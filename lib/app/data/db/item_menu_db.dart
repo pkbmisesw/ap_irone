@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:irone/app/widgets/dialog/custom_dialog.dart';
+import 'package:silahan_kawan/app/widgets/dialog/custom_dialog.dart';
 
 class ItemMenuDB {
   final int id;

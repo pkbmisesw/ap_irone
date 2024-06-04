@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
-import 'package:irone/app/data/models/law/item_law_model.dart';
-import 'package:irone/app/modules/law/controllers/law_controller.dart';
-import 'package:irone/app/shared/shared_method.dart';
-import 'package:irone/app/widgets/errors/card_error_item.dart';
-import 'package:irone/app/widgets/result/result_widget.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/app/data/models/law/item_law_model.dart';
+import 'package:silahan_kawan/app/modules/law/controllers/law_controller.dart';
+import 'package:silahan_kawan/app/shared/shared_method.dart';
+import 'package:silahan_kawan/app/widgets/errors/card_error_item.dart';
+import 'package:silahan_kawan/app/widgets/result/result_widget.dart';
+import 'package:silahan_kawan/theme.dart';
 
 // class LawView extends GetView<LawController> {
 //   const LawView({Key? key}) : super(key: key);

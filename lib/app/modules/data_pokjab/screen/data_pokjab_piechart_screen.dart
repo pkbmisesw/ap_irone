@@ -6,10 +6,10 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:irone/app/modules/data_pokjab/models/data_pokjab_model.dart';
-import 'package:irone/app/modules/home/views/appbar.dart';
-import 'package:irone/app/modules/home/widget/button_list.dart';
-import 'package:irone/app/services/data_services/data_pokjab_services.dart';
+import 'package:silahan_kawan/app/modules/data_pokjab/models/data_pokjab_model.dart';
+import 'package:silahan_kawan/app/modules/home/views/appbar.dart';
+import 'package:silahan_kawan/app/modules/home/widget/button_list.dart';
+import 'package:silahan_kawan/app/services/data_services/data_pokjab_services.dart';
 
 class DataPokjabPieScreen extends StatefulWidget {
   const DataPokjabPieScreen({super.key});

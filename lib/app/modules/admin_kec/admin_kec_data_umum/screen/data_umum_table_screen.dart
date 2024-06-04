@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:irone/app/modules/data_rekap/models/data_model.dart';
-import 'package:irone/app/modules/data_rekap/models/data_rekap_models.dart';
-import 'package:irone/app/services/data_services/data_services.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/models/data_model.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/models/data_rekap_models.dart';
+import 'package:silahan_kawan/app/services/data_services/data_services.dart';
 import 'package:syncfusion_flutter_datagrid/datagrid.dart';
 
 class AdminKecTableDataUmumScreen extends StatefulWidget {

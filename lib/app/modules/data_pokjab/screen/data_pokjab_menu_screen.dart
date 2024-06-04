@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/widgets/pokja_menu_widget.dart';
+import 'package:silahan_kawan/app/widgets/pokja_menu_widget.dart';
 
 import 'data_pokjab_barchart_screen.dart';
 import 'data_pokjab_input_screen.dart';

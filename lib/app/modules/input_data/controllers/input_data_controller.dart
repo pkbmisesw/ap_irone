@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/data/models/input_data.dart';
-import 'package:irone/app/services/input_data_services.dart';
-import 'package:irone/app/shared/shared_method.dart';
-import 'package:irone/app/utils/local_db.dart';
+import 'package:silahan_kawan/app/data/models/input_data.dart';
+import 'package:silahan_kawan/app/services/input_data_services.dart';
+import 'package:silahan_kawan/app/shared/shared_method.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
 
 class InputDataController extends GetxController {
   final InputDataServices _inputDataServices = InputDataServices();

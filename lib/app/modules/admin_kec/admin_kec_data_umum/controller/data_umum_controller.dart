@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:irone/app/modules/data_umum/model/data_umum_models.dart';
-import 'package:irone/app/utils/local_db.dart';
+import 'package:silahan_kawan/app/modules/data_umum/model/data_umum_models.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
 
 // TODO: Berhubung enak copy dari pada ngetik biar cepat, copy dari base code.
 

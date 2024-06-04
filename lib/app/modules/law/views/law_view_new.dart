@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:intl/intl.dart';
-import 'package:irone/app/data/models/law/item_law_model.dart';
-import 'package:irone/app/modules/data_pokjaa/widget/data_pokja_list_widget.dart';
-import 'package:irone/app/modules/law/controllers/law_controller.dart';
-import 'package:irone/app/shared/shared_method.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/app/data/models/law/item_law_model.dart';
+import 'package:silahan_kawan/app/modules/data_pokjaa/widget/data_pokja_list_widget.dart';
+import 'package:silahan_kawan/app/modules/law/controllers/law_controller.dart';
+import 'package:silahan_kawan/app/shared/shared_method.dart';
+import 'package:silahan_kawan/theme.dart';
 import 'package:remixicon/remixicon.dart';
 import 'package:get/get.dart';
 

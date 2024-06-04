@@ -3,8 +3,8 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:logger/logger.dart';
-import 'package:irone/app/data/models/banner/item_banner_model.dart';
-import 'package:irone/app/services/home_services.dart';
+import 'package:silahan_kawan/app/data/models/banner/item_banner_model.dart';
+import 'package:silahan_kawan/app/services/home_services.dart';
 
 import '../../../routes/app_pages.dart';
 import '../../init/controllers/init_controller.dart';

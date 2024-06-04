@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:irone/app/modules/data_pokjaa/models/data_pokja_model.dart';
-import 'package:irone/app/modules/data_pokjaa/widget/data_pokja_list_widget.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/app/modules/data_pokjaa/models/data_pokja_model.dart';
+import 'package:silahan_kawan/app/modules/data_pokjaa/widget/data_pokja_list_widget.dart';
+import 'package:silahan_kawan/theme.dart';
 import 'package:remixicon/remixicon.dart';
 import 'package:get/get.dart';
 import '../controller/data_pokjaa_services.dart';

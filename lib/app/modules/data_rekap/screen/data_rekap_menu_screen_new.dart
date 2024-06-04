@@ -3,15 +3,15 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:irone/app/modules/data_rekap/screen/data_rekap_barchart_screen.dart';
-import 'package:irone/app/modules/data_rekap/screen/data_rekap_input_screen.dart';
-import 'package:irone/app/modules/data_rekap/screen/data_rekap_linechart_screen.dart';
-import 'package:irone/app/modules/data_rekap/screen/data_rekap_piechart_screen.dart';
-import 'package:irone/app/modules/data_rekap/screen/data_rekap_screen.dart';
-import 'package:irone/app/modules/data_rekap/screen/data_rekap_table_screen.dart';
-import 'package:irone/app/modules/home/views/appbar.dart';
-import 'package:irone/app/utils/local_db.dart';
-import 'package:irone/theme.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/screen/data_rekap_barchart_screen.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/screen/data_rekap_input_screen.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/screen/data_rekap_linechart_screen.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/screen/data_rekap_piechart_screen.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/screen/data_rekap_screen.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/screen/data_rekap_table_screen.dart';
+import 'package:silahan_kawan/app/modules/home/views/appbar.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
+import 'package:silahan_kawan/theme.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class DataRekapHome extends StatefulWidget {

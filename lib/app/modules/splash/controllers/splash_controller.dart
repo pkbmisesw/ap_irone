@@ -1,8 +1,9 @@
-import 'package:irone/app/routes/app_pages.dart';
+import 'package:silahan_kawan/app/modules/auth/auth_screen.dart';
+import 'package:silahan_kawan/app/routes/app_pages.dart';
 import 'package:get/get.dart';
-import 'package:irone/main.dart';
+import 'package:silahan_kawan/main.dart';
 import 'package:logger/logger.dart';
-import 'package:irone/app/shared/values.dart';
+import 'package:silahan_kawan/app/shared/values.dart';
 
 import '../../init/controllers/init_controller.dart';
 
@@ -41,7 +42,7 @@ class SplashController extends GetxController {
       // if (token == tokenDB) {
       // }
     } else {
-      moveToPage(Routes.LOGIN);
+      Get.to(() => AuthView());
     }
   }
 

@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:irone/app/modules/data_rekap/widget/sizedbox_extension.dart';
-import 'package:irone/app/modules/data_rekap/widget/stepper.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/widget/sizedbox_extension.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/widget/stepper.dart';
 import 'package:remixicon/remixicon.dart';
 
 import '../../data_rekap/screen/data_rekap_input_screen.dart';

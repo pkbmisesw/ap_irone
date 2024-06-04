@@ -1,12 +1,12 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:dio/dio.dart';
-import 'package:irone/app/data/models/auth/login/users_model.dart';
-import 'package:irone/app/modules/data_rekap/models/data_rekap_models.dart';
-import 'package:irone/app/modules/data_rekap/models/model_chart.dart';
-import 'package:irone/app/modules/data_umum/model/data_umum_models.dart';
-import 'package:irone/app/modules/data_umum/model/model_chart.dart';
-import 'package:irone/app/utils/local_db.dart';
+import 'package:silahan_kawan/app/data/models/auth/login/users_model.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/models/data_rekap_models.dart';
+import 'package:silahan_kawan/app/modules/data_rekap/models/model_chart.dart';
+import 'package:silahan_kawan/app/modules/data_umum/model/data_umum_models.dart';
+import 'package:silahan_kawan/app/modules/data_umum/model/model_chart.dart';
+import 'package:silahan_kawan/app/utils/local_db.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class DataServices {
